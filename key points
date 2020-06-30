@@ -13,3 +13,72 @@
 <hr size="3" noshade color="blue"> <!--represents a thematic break between paragraph-level elements-->
 </center>
 
+<!-- some useful websites
+techcrunch.com
+stackoverflow.com
+codepen.io
+devdocs.io
+web.archive.org
+unicode-table.com
+-->
+
+<HTML:5 boilerplate>
+
+  <!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+</html>
+  
+<!--boilerplate is a template--> 
+<meta charset="utf-8" />
+charset <!--This attribute declares the page's character encoding.--> 
+<br>
+meta tag <!-- to provide structured metadata about a Web page.  HTML can also contain metadata in its <head> element that describes the document — for example who wrote it, and its summary-->
+<br>
+utf-8 <!--A character in UTF8 can be from 1 to 4 bytes long. UTF-8 can represent any character in the Unicode standard. UTF-8 is backwards compatible with ASCII. UTF-8 is the preferred encoding for e-mail and web pages-->
+  
+<p></p> <!-- paragraph tag--> 
+<i></i> <!-- It is typically displayed in italic type-->
+<em></em> <!--text that has stress emphasis (preferred)-->
+<b></b> <!-- The HTML Bring Attention To element (<b>) is used to draw the reader's attention to the element's contents-->
+<strong></strong> <!-- used for content that is of "strong importance," including things of great seriousness or urgency (such as warnings) ("preferred") -->
+<ul></ul> <!-- represents an unordered list of items, typically rendered as a bulleted list-->
+<li></li> <!-- list-->
+  
+<ul>
+    <li>Milk</li>
+    <li>Cheese
+        <ul>
+            <li>Blue cheese</li>
+            <li>Feta</li>
+        </ul>
+    </li>
+</ul>
+<ol></ol> <!-- defines an ordered list. An ordered list can be numerical or alphabetical.-->
+  
+  <ol type="1">
+  <li>Coffee</li>
+  <li>Tea
+    <ol type="a">
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+  
+<ul>	<!--Defines an unordered list-->
+<ol>	<!--Defines an ordered list-->
+<li>	<!--Defines a list item-->
+<dl>	<!--Defines a description list-->
+<dt>	<!--Defines a term in a description list-->
+<dd>	<!--Describes the term in a description list-->
+
+MY PERSONAL WEBSITE:file:///C:/Users/laraj/Desktop/Web%20development%20folder/HTML-%20personal%20site/index.html
+  
