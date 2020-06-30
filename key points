@@ -1,0 +1,15 @@
+<center>
+<h1>This is the level 1 heading created using h1 tag </h1>
+<!--The following code shows all the heading levels, in use-->
+<h1>Heading level 1</h1>
+<h2>Heading level 2</h2>
+<h3>Heading level 3</h3>
+<h4>Heading level 4</h4>
+<h5>Heading level 5</h5>
+<h6>Heading level 6</h6>
+
+<!--The folloing are the self closing tags-->
+<br> <!-- produces a line break in text-->
+<hr size="3" noshade color="blue"> <!--represents a thematic break between paragraph-level elements-->
+</center>
+
