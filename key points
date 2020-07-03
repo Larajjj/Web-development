@@ -11,6 +11,7 @@
 <!--The folloing are the self closing tags-->
 <br> <!-- produces a line break in text-->
 <hr size="3" noshade color="blue"> <!--represents a thematic break between paragraph-level elements-->
+<img src="source link" alt="description"> <!-- used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages-->
 </center>
 
 <!-- some useful websites
@@ -20,6 +21,9 @@ codepen.io
 devdocs.io
 web.archive.org
 unicode-table.com
+crop-circle.imageonline.co
+photobucket
+wiki game
 -->
 
 <HTML:5 boilerplate>
@@ -80,5 +84,80 @@ utf-8 <!--A character in UTF8 can be from 1 to 4 bytes long. UTF-8 can represent
 <dt>	<!--Defines a term in a description list-->
 <dd>	<!--Describes the term in a description list-->
 
-MY PERSONAL WEBSITE:file:///C:/Users/laraj/Desktop/Web%20development%20folder/HTML-%20personal%20site/index.html
+
+<table border="1">
+          <thead>
+              <tr>
+                 <th>Year</th>
+                 <th>Award</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>2011</td>
+                  <td>Baalashri Award</td>
+              </tr>
+              <tr>
+                  <td>2012</td>
+                  <td>First place in Bharatanatya in Universal Rang Mahotsav, Dehradun</td>
+              </tr>
+              <tr>
+                  <td>2013</td>
+                  <td>First place in Bharatanatya and Folk dance in Nrityotsav, Agra</td>
+              </tr>
+          </tbody>
+          <tfoot>
+
+          </tfoot>
+       </table>
+  
+<table> <!-- represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.  -->
+<thead> <!-- defines a set of rows defining the head of the columns of the table.  -->
+<tr> <!-- defines a row of cells in a table. The row's cells can then be established using a mix of <td> (data cell) and <th> (header cell) elements. -->
+<th> <!--defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes -->
+<tbody> <!-- The HTML Table Body element (<tbody>) encapsulates a set of table row (<tr> elements), indicating that they comprise the body of the table (<table>) -->
+<td> <!-- defines a cell of a table that contains data-->
+<tfoot> <!--<tfoot>
+               <tr>
+                 <th scope="row">Totals</th>
+                 <td>21,000</td>
+               </tr>
+            </tfoot> -->
+<table cellspacing="20"> <!-- This attribute defines the size of the space between two cells in a percentage value or pixels. The attribute is applied both horizontally and vertically-->
+  
+  
+  <table>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Dance</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Leadership</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Photography</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td><table>
+          <tr>
+            <td>Dance</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Leadership</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Photography</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
   
