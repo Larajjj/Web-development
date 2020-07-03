@@ -24,6 +24,8 @@ unicode-table.com
 crop-circle.imageonline.co
 photobucket
 wiki game
+go daddy- hosting website
+blue host- hosting website
 -->
 
 <HTML:5 boilerplate>
@@ -160,4 +162,22 @@ utf-8 <!--A character in UTF8 can be from 1 to 4 bytes long. UTF-8 can represent
         </table></td>
       </tr>
     </table>
+    
+    
+    <form></form> <!--  represents a document section that contains interactive controls for submitting information to a web server-->
+
+     <form action="index.html">
+            <label>Name</label>
+            <input type="text">
+            <br>
+            <input type="date">
+            <input type="file">
+            <br>
+            <input type="radio">
+            <input type="range">
+            <br>
+            <input type="submit">
+    </form> 
+    
+    
   
