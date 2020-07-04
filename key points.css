@@ -1,2 +1,9 @@
-Some useful websites:
+<!-- some useful websites
+http://www.appbrewery.co/p/newsletter
 seanhalpin.io
+colorhunt.co
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+-->
+
+The <color> CSS data type represents a color in the sRGB color space. A <color> may also include an alpha-channel transparency value, indicating how the color should composite with its background.
+<body style="background-color: red;">
