@@ -5,7 +5,7 @@ colorhunt.co
 https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 browser default css- https://www.w3schools.com/cssref/css_default_values.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-emojipedia.org
+https://emojipedia.org/
 -->
 
 The <color> CSS data type represents a color in the sRGB color space. A <color> may also include an alpha-channel transparency value, indicating how the color should composite with its background.
@@ -31,15 +31,16 @@ border style: /* Keyword values */
               border-style: inset;
               border-style: outset;
 
-change text color css: /* h1{  
-                           color: #4a3a70;
-                            }
-                          h3{
-                          color: #4a3a70;
-                            }*/
+change text color css: 
+(1)Tag selectors:
+/* h1{  
+    color: #4a3a70;
+  }
+   h3{
+    color: #4a3a70;
+  }*/
 
-
-Class selectors:
+(2)Class selectors: to apply the same  style to a group of related items.
 /*
 <img class="bacon" src="" alt="">
 <img class="broccoli" scr="" alt"">
@@ -53,5 +54,20 @@ Class selectors:
 }
 */
 
+(3)ID selectors: to apply a specofic style to a single element.
+/*
+ <h1 id="heading"> I ❤ Bacon</h1>
 
+
+#heading {
+    color: white;
+}
+*/
+
+(4)Pseudo selectors:
+/*
+img:hover{
+    background-color: red;
+}
+*/
 
