@@ -8,7 +8,16 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 https://emojipedia.org/
 discord.com
 favicon.cc
+www.cssfontstack.com
+fonts.google.com
+adobe color
+lorem-ipsum.perbang.dk
+flaticon.com
+giphy.com
+http://cssbuttoncreator.com/
+http://www.frontendmentor.io/
 -->
+
 
 The <color> CSS data type represents a color in the sRGB color space. A <color> may also include an alpha-channel transparency value, indicating how the color should composite with its background.
 <body style="background-color: red;">
@@ -84,3 +93,23 @@ HTML div /* content division element
         
     </body>
 
+
+
+MARGIN:
+/* Apply to all four sides */
+margin: 1em;
+margin: -3px;
+
+/* vertical | horizontal */
+margin: 5% auto;
+
+/* top | horizontal | bottom */
+margin: 1em auto 2em; 
+
+/* top | right | bottom | left */
+margin: 2px 1em 0 auto;
+
+/* Global values */
+margin: inherit;
+margin: initial;
+margin: unset;
